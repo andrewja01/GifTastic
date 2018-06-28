@@ -1,0 +1,81 @@
+div,
+input {
+  margin: 10px;
+}
+
+button,
+#newSport {
+    margin:10px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px 0 grey;
+    padding: 10px;
+    background-color: #08707e;
+    width: 100px;
+}
+
+button:hover,
+#newSport:hover  {
+    background-color: #f7f7f7ef
+}
+
+button:active {
+    background-color: #f7f7f7ef;
+    box-shadow: 0 5px 10px 0 grey;
+    transform: translateY(5px);
+  }
+
+#sports-form {
+    float: right;
+    align-items: center;
+}
+
+#sport-input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border: 5px solid #555;
+}
+
+#sports-gifs {
+    display: inline-flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+img {
+    width: 225px;
+    height: 250px;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #b8b4b4;
+}
+
+header {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: #08707e;
+    text-shadow: 3px 3px #b8b4b4;
+    background-image: url("images/connectwork.png");
+    background-position: center;
+}
+
+#footer {
+    background-image: url("images/connectwork.png");
+    background-position: center;
+    bottom: 0;
+    height: 100px;
+    position: absolute;
+    width: 98%;
+    color: #f7f7f7ef;
+    text-align: center;
+    justify-content: center;
+
+
+}
