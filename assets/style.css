@@ -66,16 +66,3 @@ header {
     background-position: center;
 }
 
-#footer {
-    background-image: url("images/connectwork.png");
-    background-position: center;
-    bottom: 0;
-    height: 100px;
-    position: absolute;
-    width: 98%;
-    color: #f7f7f7ef;
-    text-align: center;
-    justify-content: center;
-
-
-}
